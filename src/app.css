@@ -1,0 +1,72 @@
+:root {
+    --main-text-color: #353535;
+  }
+  
+  body {
+    background-color: #ffffff;
+    text-transform: lowercase;
+  }
+  
+  h1 {
+    color: var(--main-text-color);
+  }
+  
+  h2 {
+    color: var(--main-text-color);
+  }
+  
+  h3 {
+    color: var(--main-text-color);
+  }
+  
+  h4 {
+    color: var(--main-text-color);
+  }
+  
+  h5 {
+    color: var(--main-text-color);
+  }
+  
+  h6 {
+    color: var(--main-text-color);
+  }
+  
+  p {
+    color: var(--main-text-color);
+  }
+  
+  a {
+    color: #144bff;
+  }
+  
+  hr {
+    border-top: 5px dotted var(--main-text-color);
+  }
+  
+  .main-container {
+    width: 40%;
+  }
+  
+  .vertical-center {
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh; /* These two lines are counted as one :-)       */
+  
+    display: flex;
+    align-items: center;
+  }
+  
+  a {
+    color:dodgerblue;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .main-container {
+      width: 90%;
+    }
+  
+    .bio-container {
+      max-width: 60%;
+    }
+  }
