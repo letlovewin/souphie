@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-    <title>souphie</title>
+    <title>gray's tutoring</title>
 </svelte:head>
 
 <div class="container main-container mt-2">
